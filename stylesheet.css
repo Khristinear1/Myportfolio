@@ -1,0 +1,38 @@
+/* RESET */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+ 
+* {
+    box-sizing: border-box;
+}
+
+/* LAYOUT */
+
+/* TYPOGRAPHY */
+
+/* COLOUR SCHEME & BORDERS */
+
+/* NAVIGATION */
+
+/* IMAGES & VIDEOS */
+
+/* RESPONSIVENESS */
+
+@media screen and (min-width: 60em) {
+    
+    body {
+        /* Create the grid with two central content columns and flexible (but equal)
+        white space columns on either side. */
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+
+/* flexboxes */ 
+
+/* MISC */
