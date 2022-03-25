@@ -10,13 +10,72 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, f
     box-sizing: border-box;
 }
 
+
 /* LAYOUT */
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 80rem 1fr;
+}
+
+header, footer, main, nav {
+    grid-column: 2;
+    margin-top: 1rem;
+}
+
+nav li {
+    display: inline;
+    float: right;
+    padding: 12px
+}
+
+header h1, img {
+    float: left;
+}
+
+header h1 {
+    margin-top: 1rem;
+}
+
+.mainnav {
+    float: right;
+}
+
+main img {
+    float: right;
+    margin-top: 1rem;
+}
 
 /* TYPOGRAPHY */
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(241, 241, 241);
+}
+
 /* COLOUR SCHEME & BORDERS */
 
+body {
+    background-color: black;
+}
+
+header {
+    background-color: #181818;
+}
+
+footer {
+    background-color: #00473F;
+}
+
 /* NAVIGATION */
+nav ul, footer ul {
+    list-style-type: none;
+}
+
+nav a, footer a {
+    text-decoration: none;
+    color: white;
+}
 
 /* IMAGES & VIDEOS */
 
@@ -26,13 +85,20 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, f
     
     body {
         /* Create the grid with two central content columns and flexible (but equal)
-        white space columns on either side. */
-        display: grid;
-        grid-template-columns: auto;
+        white space columns on either side. 
+        display: ;
+        grid-template-columns: ; */
     }
 }
 
 
 /* flexboxes */ 
+
+header {
+    align-items: center;
+}
+
+
+
 
 /* MISC */
